@@ -1,7 +1,8 @@
 # TwiXXX Privacy Build
 
 This is the APK-decoded source-equivalent package for the TwiXXX privacy build.
-Not OSS
+
+## This is not open-source software.
 
 ## Scope
 
