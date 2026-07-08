@@ -1,0 +1,49 @@
+.class public final Lhb2;
+.super Llh8;
+.source "r8-map-id-426a17459816a877fa778f457fa2c6a6fa89dcd298c3cd21108916cbe37aec76"
+
+
+# instance fields
+.field public final a:Lbj4;
+
+.field public final b:Lbj4;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lbj4;
+
+    .line 5
+    .line 6
+    invoke-direct {v0}, Lbj4;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Lhb2;->a:Lbj4;
+
+    .line 10
+    .line 11
+    new-instance v0, Lbj4;
+
+    .line 12
+    .line 13
+    invoke-direct {v0}, Lbj4;-><init>()V
+
+    .line 14
+    .line 15
+    .line 16
+    iput-object v0, p0, Lhb2;->b:Lbj4;
+
+    .line 17
+    .line 18
+    return-void
+.end method

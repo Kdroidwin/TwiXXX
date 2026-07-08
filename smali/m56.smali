@@ -1,0 +1,55 @@
+.class public final Lm56;
+.super Lm89;
+.source "r8-map-id-426a17459816a877fa778f457fa2c6a6fa89dcd298c3cd21108916cbe37aec76"
+
+
+# instance fields
+.field public final a:Ly74;
+
+
+# direct methods
+.method public constructor <init>(Ly74;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lm56;->a:Ly74;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 1
+
+    .line 1
+    iget-object p0, p0, Lm56;->a:Ly74;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Ly74;->c()V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance p0, Lcu;
+
+    .line 7
+    .line 8
+    const/4 v0, 0x5
+
+    .line 9
+    invoke-direct {p0, v0}, Lcu;-><init>(I)V
+
+    .line 10
+    .line 11
+    .line 12
+    throw p0
+.end method

@@ -1,0 +1,88 @@
+.class public final Lorg/jsoup/select/Evaluator$TagEndsWith;
+.super Lorg/jsoup/select/Evaluator;
+.source "r8-map-id-426a17459816a877fa778f457fa2c6a6fa89dcd298c3cd21108916cbe37aec76"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/jsoup/select/Evaluator;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "TagEndsWith"
+.end annotation
+
+
+# instance fields
+.field private final tagName:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lorg/jsoup/select/Evaluator;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lorg/jsoup/select/Evaluator$TagEndsWith;->tagName:Ljava/lang/String;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public matches(Lorg/jsoup/nodes/Element;Lorg/jsoup/nodes/Element;)Z
+    .locals 0
+
+    .line 1
+    invoke-virtual {p2}, Lorg/jsoup/nodes/Element;->normalName()Ljava/lang/String;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    iget-object p0, p0, Lorg/jsoup/select/Evaluator$TagEndsWith;->tagName:Ljava/lang/String;
+
+    .line 6
+    .line 7
+    invoke-virtual {p1, p0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object p0, p0, Lorg/jsoup/select/Evaluator$TagEndsWith;->tagName:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    const-string v0, "*|"
+
+    .line 4
+    .line 5
+    invoke-static {v0, p0}, Ls51;->k(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
+
+    .line 9
+    return-object p0
+.end method
